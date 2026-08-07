@@ -1,0 +1,194 @@
+body {
+    background-color: #141414;
+}
+
+.navbar-brand {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+span {
+    color: #FF014F;
+}
+
+.navbar {
+    background-color: #1E1E1E;
+}
+
+.btn {
+    color: #FF014F;
+    border: 2px solid #FF014F;
+}
+
+.btn:hover {
+    background-color: #FF014F;
+    color: white;
+}
+
+.hello-body {
+    padding-block: 100px;
+    padding-inline: 200px;
+    color: white;
+}
+
+.body-text-1 p {
+    color: #FFFFFFA6;
+}
+
+.body-text-1 h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.body-text-1 h4 {
+    font-weight: 300;
+}
+
+.body-text-1 {
+    width: 500px;
+}
+
+.body-img-1 img {
+    width: 800px;
+}
+
+.body-img-1 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.body-SM-1{
+    display: flex;
+    gap: 10px;
+}
+
+.SM-1 {
+    background-color: #1E1E1E;
+    padding: 5px;
+}
+
+.body-text-1 button {
+    color: #FF014F;
+    background-color: transparent;
+    border: 2px solid #FF014F;
+    padding: 10px;
+}
+
+.web-1 {
+    width: 300px;
+    border: 2px solid #FF014F;
+}
+
+.what-body-1 {
+    padding-inline: 500px;
+}
+
+.body-img-2 img {
+    width: 100px;
+}
+
+.client-body-1 {
+    padding-inline: 300px;
+    padding-block: 100px;
+}
+
+.body-img-3  img {
+    width: 100px;
+}
+
+.img-1 {
+    border: 2px solid #FF014F;
+}
+
+.img-2 {
+    width: 593px;
+}
+
+.img-3 {
+    width: 200px;
+}
+
+.btn-1 {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid #FF014F;
+    border-radius: 50%;
+}
+
+.btn-1:hover {
+    border: 4px solid #FF014F;
+}
+
+.website, .application {
+    margin-block: 200px;
+}
+
+.talent-body-1 {
+    padding-block: 200px;
+}
+
+.form-1 input {
+    background-color: #1E1E1E;
+    border: none;
+    width: 800px;
+    padding: 10px;
+}
+
+.form-1 {
+    padding-inline: 350px;
+}
+
+.d-1 input{
+    width: 100%;
+    height: 100px;
+}
+
+.form-1 button {
+    background-color: transparent;
+    border: 2px solid #FF014F;
+    color: #FF014F;
+}
+
+footer {
+    background-color: #1E1E1E9E;
+    padding: 30px;
+}
+
+footer h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+.s-1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.b-1 {
+    background-color: #FF014F;
+    color: white;
+    border: none;
+    padding-inline: 25px;
+    padding-block: 10px;
+    margin-top: 100px;
+}
+
+.b-1:hover {
+    background-color: #ef0048;
+}
