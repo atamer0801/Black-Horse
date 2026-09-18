@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+    padding-block: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo svg {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo input {
+    margin: 0;
+    padding-block: 10px;
+    padding-left: 7px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+.logo input::placeholder {
+    color: black;
+    font-weight: 200;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    padding-inline: 30px;
+    padding-block: 20px;
+    border-radius: 30px;
+}
+
+nav ul li a svg {
+    padding-inline: 30px;
+    padding-block: 10px;
+    border-radius: 20px;
+}
+
+nav ul li a svg:hover {
+    background-color: whitesmoke;
+    transition: 0.4s;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons svg {
+    width: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+.icons img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.container {
+    padding-inline: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: sticky;
+    left: 0;
+    top: 110px;
+}
+
+.buttons button {
+    width: 250px;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-block: 20px;
+    padding-inline: 20px;
+}
+
+.buttons button:hover {
+    background-color: whitesmoke;
+    transition: 0.4s;
+}
+
+#Product {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.card {
+    width: 800px;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 700px;
+    border-radius: 20px;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.body {
+    font-weight: 300;
+}
+
+.ICONS {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.ICONS svg:hover {
+    cursor: pointer;
+}
+
+.fr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: sticky;
+    right: 0;
+    top: 110px;
+}
+
+.fr-1 {
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.fr-1 img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.fr-1 h1 {
+    font-size: 20px;
+}
